@@ -1,9 +1,7 @@
 ## Repo Information
-This repo houses the SARP gamemode, and is actively updated by SARP developers.
+This repo houses the Prospect Roleplay gamemode, and is actively updated by PRP developers.
 
 ## Current Developers
-* Desmond DeSantos (Lead Developer)*
-* Gold (Senior Developer)
-* $kylar (Senior Developer)
-* Avery Booker (Senior Developer)
-* Hank James (Junior Developer)
+* Allen (Lead Developer)
+* OShadowG (Senior Developer)
+* DeViL252 (Senior Developer)
