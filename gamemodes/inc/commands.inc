@@ -24272,7 +24272,7 @@ CMD:doubleexp(playerid, params[])
 		if(!DOUBLE_EXP_MODE) {
 			//enable double exp mode
 			SendClientMessageToAll(COLOR_LIGHTBLUE, "Double EXP has been enabled.");
-			SendRconCommand("hostname [0.3.7/DL] District Roleplay [DOUBLE EXP]");
+			SendRconCommand("hostname [0.3.7/DL] District Roleplay [2x EXP Event!]");
 			DOUBLE_EXP_MODE = 1;
 			ADMIN_ENABLED_DOUBLE_EXP_MODE = 1;
 		} else {

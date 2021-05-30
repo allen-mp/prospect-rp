@@ -22952,14 +22952,14 @@ stock doubleEXPCheck() {
 		if(!DOUBLE_EXP_MODE) {
 			//enable double exp mode
 			SendClientMessageToAll(COLOR_LIGHTBLUE, "Double Hours has been enabled.");
-			SendRconCommand("hostname District Roleplay | Double Hours!");
+			SendRconCommand("hostname [0.3.7/DL] District Roleplay [2x EXP Event!]");
 			DOUBLE_EXP_MODE = 1;
 		}
 	} else {
 		if(DOUBLE_EXP_MODE) {
 			//disable double exp mode
 			SendClientMessageToAll(COLOR_LIGHTBLUE, "Double Hours has been disabled.");
-			SendRconCommand("hostname District Roleplay");
+			SendRconCommand("hostname [0.3.7/DL] District Roleplay");
 			DOUBLE_EXP_MODE = 0;
 		}
 	}
