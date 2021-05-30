@@ -1,0 +1,17 @@
+#include "inc/donor/James_Fairland-202.inc" // must be loaded via main gm due to undefined symbol errors
+
+Inside CMD:enter(playerid, params[])
+
+				//DONORSTUFF
+				if(i == JAMES_FAIRLAND_DOORID) // Can still /aenter if locked
+				{
+					if(JAMES_FAIRLAND_LOCKED) return SendClientMessage(playerid, COLOR_GREY, "This door is currently locked.");
+					SendClientMessage(playerid, COLOR_LIGHTBLUE, JAMES_FAIRLAND_MSG);
+				}
+
+
+	//DONORSTUFF
+	//robert henderson and rob joseph
+	new Text3D:clubBar = CreateDynamic3DTextLabel("Bar\n{FFFFFF}/buydrink", 0x6E88FFFF, 1734.3193, -2732.6548, 1089.1600 +0.30, 20.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, -1, -1, -1, 100);
+	new Text3D:djBooth = CreateDynamic3DTextLabel("Turntables\n{FFFFFF}/setdj", 0x6E88FFFF, 1744.8317, -2735.9390, 1089.3580 +0.30, 20.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, -1, -1, -1, 100);
+	clubFunds = CreateDynamicPickup(1274, 23, 1743.1862, -2714.6519, 1092.4204); //Dollar

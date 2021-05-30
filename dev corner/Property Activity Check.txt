@@ -1,0 +1,4 @@
+ALTER TABLE `sarp_game`.`players` 
+ADD COLUMN `PropDate` VARCHAR(10) NOT NULL;
+UPDATE Players SET PropDate = LastLogin 
+UPDATE players SET PropDate = DATE_ADD(STR_TO_DATE(PropDate, '%d/%m/%Y'), INTERVAL 1 MONTH)

@@ -1,0 +1,168 @@
+/*
+	IMPORTANT:
+
+	1. do NOT change the ID's of skins that are already in-game!
+	2. don't forget to register the skin in /gamemodes/inc/custom_skins/skins_core.inc
+*/
+
+// Public skins
+AddCharModel(288, 20001, "lvpdpc2.dff", "lvpdpc2.txd"); // LVPD civ clothes
+AddCharModel(161, 20002, "modcow1.dff", "modcow1.txd"); // Modern Cowboy
+AddCharModel(161, 20003, "wmywatch.dff", "wmywatch.txd"); // White guy w/ watch
+AddCharModel(184, 20004, "asian1.dff", "asian1.txd"); // Asian guy
+AddCharModel(186, 20005, "triad1.dff", "triad1.txd"); // Triad guy
+AddCharModel(184, 20006, "triad2.dff", "triad2.txd"); // Triad guy
+AddCharModel(299, 20007, "claude.dff", "claude.txd"); // New Claude
+AddCharModel(268, 20008, "dwayne.dff", "dwayne.txd"); // Dwayne
+AddCharModel(301, 20093, "swfyst.dff", "swfyst.txd"); // Naked female
+AddCharModel(233, 20103, "ps1.dff" , "ps1.txd"); // Public female skin 1
+AddCharModel(233, 20104, "ps2.dff" , "ps2.txd"); // Public female skin 2
+AddCharModel(233, 20105, "ps3.dff" , "ps3.txd"); // Public female skin 3
+AddCharModel(233, 20106, "ps4.dff" , "ps4.txd"); // Public female skin 4
+AddCharModel(233, 20107, "ps5.dff" , "ps5.txd"); // Public female skin 5
+AddCharModel(233, 20108, "ps6.dff" , "ps6.txd"); // Public female skin 6
+AddCharModel(233, 20109, "ps7.dff" , "ps7.txd"); // Public female skin 7
+
+// FMD skins
+AddCharModel(119, 20009, "whitefmd.dff", "whitefmd.txd"); // White FMD
+AddCharModel(119, 20010, "whitefmd2.dff", "whitefmd2.txd"); // White FMD
+AddCharModel(119, 20011, "blackfmd.dff", "blackfmd.txd"); // Black FMD
+AddCharModel(233, 20097, "SAFMDfemale.dff", "SAFMDfemale.txd"); // Blue FMD female
+
+// PD skins
+AddCharModel(119, 20012, "bdetective.dff", "bdetective.txd"); // black detective
+AddCharModel(119, 20013, "blondecadet.dff", "blondecadet.txd"); // blonde cadet
+AddCharModel(119, 20014, "blondeofficer.dff", "blondeofficer.txd"); // blonde officer
+AddCharModel(119, 20015, "blondesergeant.dff", "blondesergeant.txd"); // blonde sergeant
+AddCharModel(119, 20016, "blondecaptain.dff", "blondecaptain.txd"); // blonde captain
+AddCharModel(119, 20017, "blondecommander.dff", "blondecommander.txd"); // blonde commander
+AddCharModel(285, 20063, "sapdswat.dff", "sapdswat.txd"); // sapd swat skin
+
+// FBI skins
+AddCharModel(211, 20018, "sarp_fbi_2.dff", "sarp_fbi_2.txd"); // FBI female
+AddCharModel(285, 20044, "sarp_fbi_swat1.dff", "sarp_fbi_swat1.txd"); // FBI swat skin 1
+AddCharModel(285, 20045, "sarp_fbi_swat2.dff", "sarp_fbi_swat2.txd"); // FBI swat skin 2
+AddCharModel(285, 20046, "sarp_fbi_swat3.dff", "sarp_fbi_swat3.txd"); // FBI swat skin 3
+AddCharModel(285, 20088, "swat69.dff", "swat69.txd"); //FBI SWAT SKIN 4
+
+// Tijuana Cartel group skins (donated)
+AddCharModel(211, 20020, "sarp_group_tijuana.dff", "sarp_group_tijuana.txd"); // Tijuana Group skin female
+AddCharModel(240, 20061, "sarp_group_tijuana_2.dff", "sarp_group_tijuana_2.txd"); // Tijuana Group skin female
+AddCharModel(287, 20056, "army_1.dff", "army_1.txd"); // Zherdev OPG (Rebels MC) skin donated
+AddCharModel(285, 20062, "tijuana.dff", "tijuana.txd"); // Tijuana group skin masked man
+
+// S9 group skins
+AddCharModel(285, 20066, "sarp_group_sector9.dff", "sarp_group_sector9.txd"); // s9 group skin
+
+// Donor skins
+AddCharModel(119, 20024, "donor_170751.dff", "donor_170751.txd"); // Owner: SQL 170751
+AddCharModel(119, 20025, "donor_13843.dff", "donor_13843.txd"); // Owner: SQL 13843
+AddCharModel(119, 20026, "donor_13843_2.dff", "donor_13843_2.txd"); // Owner: SQL 13843
+AddCharModel(119, 20027, "donor_60274.dff", "donor_60274.txd"); // Owner: SQL 60274
+AddCharModel(119, 20028, "donor_19791.dff", "donor_19791.txd"); // Owner: SQL 19791
+AddCharModel(119, 20029, "donor_312.dff", "donor_312.txd"); // Owner: SQL 312
+AddCharModel(119, 20030, "donor_82903.dff", "donor_82903.txd"); // Owner: SQL 82903
+AddCharModel(216, 20031, "donor_186948.dff", "donor_186948.txd"); // Owner: SQL 186948
+AddCharModel(119, 20032, "donor_181598.dff", "donor_181598.txd"); // Owner: SQL 181598
+AddCharModel(119, 20033, "donor_5920.dff", "donor_5920.txd"); // Owner: SQL 5920
+AddCharModel(119, 20035, "donor_185225.dff", "donor_185225.txd"); // Owner: SQL 185225
+AddCharModel(119, 20036, "donor_183342.dff", "donor_183342.txd"); // Owner: SQL 183342
+AddCharModel(216, 20037, "donor_ 52069.dff", "donor_ 52069.txd"); // Owner SQL: 52069
+AddCharModel(119, 20038, "donor_475.dff", "donor_475.txd"); // Owner: SQL 475
+AddCharModel(119, 20039, "donor_178970.dff", "donor_178970.txd"); // Owner: SQL 178970
+AddCharModel(119, 20040, "donor_92920.dff", "donor_92920.txd"); // Owner: SQL 92920
+AddCharModel(119, 20041, "donor_859.dff", "donor_859.txd"); // Owner: SQL 859
+AddCharModel(119, 20042, "donor_13843_3.dff", "donor_13843_3.txd"); // Owner: SQL 13843
+AddCharModel(119, 20043, "donor_152639_2.dff", "donor_152639_2.txd"); // Owner: SQL 152639
+AddCharModel(119, 20047, "donor_140405.dff", "donor_140405.txd"); // Owner: SQL 140405
+AddCharModel(119, 20048, "donor_1118.dff", "donor_1118.txd"); // Owner: SQL 1118
+AddCharModel(240, 20049, "donor_26660.dff", "donor_26660.txd"); // Owner: SQL 26660
+AddCharModel(240, 20050, "donor_174017.dff", "donor_174017.txd"); // Owner: SQL 174017
+AddCharModel(240, 20051, "donor_152639.dff", "donor_152639.txd"); // Owner: SQL 152639
+AddCharModel(240, 20052, "donor_152639_3.dff", "donor_152639_3.txd"); // Owner: SQL 152639
+AddCharModel(240, 20053, "donor_13843_4.dff", "donor_13843_4.txd"); // Owner: SQL 13843
+AddCharModel(240, 20054, "donor_13843_5.dff", "donor_13843_5.txd"); // Owner: SQL 13843
+AddCharModel(240, 20055, "donor_152639_4.dff", "donor_152639_4.txd"); // Owner: SQL 152639
+AddCharModel(233, 20096, "MaryOswaldskin.dff", "MaryOswaldskin.txd"); // Owner: SQL 7381
+// 20056 Rebels MC
+AddCharModel(294, 20057, "donor_127908.dff", "donor_127908.txd"); // Owner: SQL 127908
+AddCharModel(240, 20058, "donor_13843_6.dff", "donor_13843_6.txd"); // Owner: SQL 13843
+AddCharModel(240, 20059, "donor_191172.dff", "donor_191172.txd"); // Owner: SQL 191172
+AddCharModel(240, 20060, "donor_191172_2.dff", "donor_191172_2.txd"); // Owner: SQL 191172
+AddCharModel(240, 20064, "donor_19791_2.dff", "donor_19791_2.txd"); // Owner: SQL 19791
+AddCharModel(240, 20065, "donor_19791_3.dff", "donor_19791_3.txd"); // Owner: SQL 19791
+AddCharModel(240, 20067, "donor_192291.dff", "donor_192291.txd"); // Owner: SQL 192291
+AddCharModel(305, 20068, "anthonyrosetti.dff", "anthonyrosetti.txd"); // Owner: SQL 372
+AddCharModel(305, 20069, "jay_destiny_1.dff", "jay_destiny_1.txd"); // Owner: SQL 30420
+
+
+AddCharModel(191, 20073, "sang_girl_1.dff", "sang_girl_1.txd"); // Owner: SANG
+AddCharModel(305, 20074, "sang_training1.dff", "sang_training1.txd"); // Owner: SANG
+AddCharModel(305, 20075, "sang_training2.dff", "sang_training2.txd"); // Owner: SANG
+AddCharModel(305, 20076, "sang_officer1.dff", "sang_officer1.txd"); // Owner: SANG
+AddCharModel(305, 20077, "sang_officer2.dff", "sang_officer2.txd"); // Owner: SANG
+AddCharModel(305, 20078, "sang_officer3.dff", "sang_officer3.txd"); // Owner: SANG
+AddCharModel(288, 20079, "sang_specops.dff", "sang_specops.txd"); // Owner: SANG
+
+AddCharModel(98, 20080, "donor_48583.dff", "donor_48583.txd"); // Owner: SQL 48583
+AddCharModel(240, 20081, "donor_152639_5.dff", "donor_152639_5.txd"); // Owner: SQL 152639
+AddCharModel(240, 20082, "donor_152639_6.dff", "donor_152639_6.txd"); // Owner: SQL 152639
+AddCharModel(240, 20083, "HAGREYSKIN.dff", "HAGREYSKIN.txd"); // Owner: HA
+AddCharModel(240, 20084, "HABLACKSKIN.dff", "HABLACKSKIN.txd"); // Owner: HA
+
+AddCharModel(305, 20086, "yourdad.dff", "yourdad.txd"); // Owner: Steven Royce
+AddCharModel(300, 20087, "yourmom.dff", "yourmom.txd"); // Owner: Steven Royce
+AddCharModel(113, 20089, "collins.dff", "collins.txd"); // Owner: Christian Collins
+AddCharModel(125, 20090, "pussy.dff", "pussy.txd"); // Owner: FBI
+AddCharModel(303, 20092, "donaldtrump.dff", "donaldtrump.txd"); // Owner: 7381
+AddCharModel(301, 20093, "swfyst.dff", "swfyst.txd"); // Owner: 7381
+
+//Bank map by dy1zan
+//AddSimpleModel(-1,16203, -3001, "vent.dff", "vent.txd"); 
+//AddSimpleModel(-1,14576, -3003, "vault3.dff", "vault3.txd"); 
+//AddSimpleModel(-1,14576, -3004, "bank_stairs.dff", "bank_stairs.txd");
+
+//CJNG SKINS
+AddCharModel(250, 20098, "cjngskincustom.dff", "cjngskincustom.txd"); // Owner: CJNG
+
+// Dominic Heimdall's skin
+AddCharModel(250, 20099, "dominicskin.dff", "dominicskin.txd"); // Owner: SQL 7388
+AddCharModel(250, 20110, "dominic2.dff", "dominic2.txd"); // Owner: SQL 7388
+
+// Rose Cassidy's skin
+AddCharModel(233, 20100, "rosecassidy.dff", "rosecassidy.txd"); // Owner SQL 7582
+AddCharModel(233, 20101, "rosecassidy2.dff", "rosecassidy2.txd"); // Owner SQL 7582
+AddCharModel(233, 20102, "rosecassidy3.dff", "rosecassidy3.txd"); // Owner SQL 7582
+
+// Millhouse skin
+AddCharModel(250, 20111, "fred.dff", "fred.txd"); // Owner SQL 7582 7408
+
+// Richie Townes
+
+AddCharModel(250, 20112, "richie1.dff", "richie1.txd"); // Owner SQL 7408
+
+// Josh Steel
+
+AddCharModel(250, 20113, "7742.dff", "7742.txd"); // Owner SQL 7742
+
+//ROCCO
+AddCharModel(250, 20114, "rocco1.dff", "rocco1.txd"); // Owner SQL 7762
+AddCharModel(250, 20115, "rocco2.dff", "rocco2.txd"); // Owner SQL 7762
+
+
+AddCharModel(250, 20117, "anthony.dff", "anthony.txd"); // anthony  7747
+
+AddCharModel(250, 20118, "jaxygid9.dff", "jaxygid9.txd"); // jaxy group id 9 skin
+
+AddCharModel(150, 20120, "judicialskin.dff", "judicialskin.txd"); // judicial dept skin
+
+// Wermacht
+AddCharModel(287, 20121, "wermacht1.dff", "wermacht1.txd"); // judicial dept skin
+AddCharModel(287, 20122, "wermacht2.dff", "wermacht2.txd"); // judicial dept skin
+AddCharModel(287, 20123, "wermacht3.dff", "wermacht3.txd"); // judicial dept skin
+AddCharModel(287, 20124, "wermacht4.dff", "wermacht4.txd"); // judicial dept skin
+
+AddCharModel(150, 20125, "emilyskin1.dff", "emilyskin1.txd"); // emily skin
+AddCharModel(150, 20126, "emilyskin2.dff", "emilyskin2.txd"); // emily skin
+
+AddCharModel(150, 20127, "77422.dff", "77422.txd");

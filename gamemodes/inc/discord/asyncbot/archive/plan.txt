@@ -1,0 +1,49 @@
+# Decorator for handling responses
+response_functions = {}
+class onresponse(object):
+    def __init__(self, name : str):
+        self.name = name
+
+        # Maintain hashmap of response functions
+        response_functions[name] = self
+
+    def __call__(self, f):
+        def wrapper(*args):
+            f(*args)
+
+        return wrapper
+
+
+# Creating some function that'll be thrown a response in some other file;
+"""
+    Example payload:
+    {
+         "cmd":"stats",
+        "sender":"Jacob_Malcom",
+         "content":"Level: 21, Age: 21, House: 29 Boogle Ave"
+    }
+"""
+@onresponse("stats")
+def on_response(data : {}):
+
+    if(data['cmd'] is 'stats'):
+
+        log(data['sender'] + " has requested someone's statistics.")
+        # sends stats to Discord
+        return data['content']
+
+
+# Server read function, invoked on every incoming request
+async def read(self):
+    while(True):
+        data = await self.reader.read(BUFFER_SIZE)
+        try:
+            json = json.loads(data)
+        except ...:
+            continue
+
+        if json['cmd'] == 'terminate': break;
+
+        if response_functions.contains(json['cmd']):
+                output = response_functions[json['cmd']](json)
+                await bot.send_message(channel, embed=embed)

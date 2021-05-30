@@ -1,0 +1,22 @@
+echo Executing Server Config...
+lanmode 0
+rcon_password 280747aA!
+maxplayers 50
+port 7777
+hostname Elite City Role Play
+gamemode0 SARP_current
+plugins crashdetect.so mysql_static.so sscanf.so streamer.so regex.so socket.so whirlpool.so SAMPSON.so ColAndreas.so gmtime.so nativechecker.so profiler.so
+filterscripts
+announce 1
+query 1
+chatlogging 1
+weburl gta-ecrp.com
+onfoot_rate 40
+incar_rate 40
+weapon_rate 40
+stream_distance 300.0
+stream_rate 1000
+maxnpc 0
+logtimeformat [%H:%M:%S]
+language English
+useartwork 1

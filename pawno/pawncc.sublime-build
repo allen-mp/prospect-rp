@@ -1,0 +1,4 @@
+{
+	"cmd": ["pawncc.exe", "-i includes", "$file", "-;+"],
+	"path": "C:/Users/Valentin Paranos/Desktop/Stuff/Gamemodes/San Andreas Roleplay's Script/pawno"
+}

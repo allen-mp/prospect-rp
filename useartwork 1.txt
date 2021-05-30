@@ -1,0 +1,2 @@
+useartwork 1
+to use custom skins from models etc
